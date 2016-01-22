@@ -10,4 +10,7 @@ install:
 	install -o root -g root ./kdeccping $(OBJDIR)/kdeccping
 
 uninstall:
-	rm -rf $(OBJDIR)
+	rm -f $(OBJDIR)/kdecclist
+	rm -f $(OBJDIR)/kdeccpair
+	rm -f $(OBJDIR)/kdeccunpair
+	rm -f $(OBJDIR)/kdeccping
