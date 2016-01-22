@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+if [ -z $1 ]; then
+	kdeconnect-cli -d "$(./kdecclist)" --pair
+else
+	kdeconnect-cli -d "${1}" --pair
+fi

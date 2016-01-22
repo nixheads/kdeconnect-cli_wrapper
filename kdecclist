@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+find_pairable_device () {
+	kdeconnect-cli --id-only -l 
+}
+
+find_pairable_device
