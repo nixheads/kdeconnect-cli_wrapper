@@ -81,3 +81,5 @@ $ kdeconnect-cli -d "$(./kdecclist)" --ping-msg "$1"
 * A script for ``--list-notifications``
 * A script for ``--lock``
 * A script for `` -a, --list-avilable``
+* Make scripts not use ./ for execution
+* Create Makefile for install
