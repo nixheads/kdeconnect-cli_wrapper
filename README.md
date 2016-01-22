@@ -26,7 +26,7 @@ method, so in effect running ``$ ./kdeccpair`` without input runs:
 $ kdeconnect -d "$(./kdecclist)" --pair
 ```
 
-while running ``$ ./kdeccpair`` with input effectively runs:
+While running ``$ ./kdeccpair`` with input effectively runs:
 
 ```bash
 $ kdeconnect -d "$1" --pair
@@ -45,7 +45,7 @@ unpairing method, so in effect running ``$ ./kdeccunpair`` without input runs:
 $ kdeconnect -d "$(./kdecclist)" --unpair
 ```
 
-while running ``$ ./kdeccunpair`` with input effectively runs:
+While running ``$ ./kdeccunpair`` with input effectively runs:
 
 ```bash
 $ kdeconnect -d "$1" --unpair
@@ -61,9 +61,9 @@ The ``kdeccping`` script calls:
 
 ```bash
 $ kdeconnect-cli -d "$(./kdecclist)" --ping
-``
+```
 
-if there is no user input. While if there is input it runs:
+If there is no user input. While if there is input it runs:
 
 ```bash
 $ kdeconnect-cli -d "$(./kdecclist)" --ping-msg "$1"
