@@ -1,4 +1,4 @@
-OBJDIR=/usr/bin/kdeccw
+OBJDIR=/usr/bin
 
 all: install
 
@@ -10,4 +10,4 @@ install:
 	install -o root -g root ./kdeccping $(OBJDIR)/kdeccping
 
 uninstall:
-	test -d $(OBJDIR) || rm -rf $(OBJDIR)
+	rm -rf $(OBJDIR)
