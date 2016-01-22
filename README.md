@@ -51,3 +51,28 @@ while running ``$ ./kdeccunpair`` with input effectively runs:
 $ kdeconnect -d "$1" --unpair
 ```
 
+### kdeccping
+
+```bash
+$ ./kdeccping
+```
+
+The ``kdeccping`` script calls:
+
+```bash
+$ kdeconnect-cli -d "$(./kdecclist)" --ping
+``
+
+if there is no user input. While if there is input it runs:
+
+```bash
+$ kdeconnect-cli -d "$(./kdecclist)" --ping-msg "$1"
+```
+
+## TODO:
+
+* A script for ``--refresh``
+* A script for ``--share <path>``
+* A script for ``--list-notifications``
+* A script for ``--lock``
+* A script for `` -a, --list-avilable``
