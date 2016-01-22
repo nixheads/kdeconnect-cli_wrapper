@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if [ -z $1 ]; then
-	kdeconnect-cli -d "$(./kdecclist)" --unpair
+	kdeconnect-cli -d "$(kdecclist)" --unpair
 else
 	kdeconnect-cli -d "${1}" --unpair
 fi

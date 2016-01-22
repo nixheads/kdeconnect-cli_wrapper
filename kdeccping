@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 if [ -z $1 ]
 then
-	kdeconnect-cli -d "$(./kdecclist)" --ping
+	kdeconnect-cli -d "$(kdecclist)" --ping
 else
-	kdeconnect-cli -d "$(./kdecclist)" --ping-msg $1
+	kdeconnect-cli -d "$(kdecclist)" --ping-msg $1
 	fi
