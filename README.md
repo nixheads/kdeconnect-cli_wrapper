@@ -26,8 +26,28 @@ method, so in effect running ``$ ./kdeccpair`` without input runs:
 $ kdeconnect -d "$(./kdecclist)" --pair
 ```
 
-while running ``kdeccpair`` with input effectively runs:
+while running ``$ ./kdeccpair`` with input effectively runs:
 
 ```bash
 $ kdeconnect -d "$1" --pair
 ```
+
+### kdeccunpair
+
+```bash
+$ ./kdeccunpair
+```
+
+The ``kdeccunpair`` script works by calling ``kdeconnect-cli``'s default 
+unpairing method, so in effect running ``$ ./kdeccunpair`` without input runs:
+
+```bash
+$ kdeconnect -d "$(./kdecclist)" --unpair
+```
+
+while running ``$ ./kdeccunpair`` with input effectively runs:
+
+```bash
+$ kdeconnect -d "$1" --unpair
+```
+
